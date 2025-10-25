@@ -10,7 +10,7 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background: url('BBG.JPEG') no-repeat center center fixed;
+    background: url('bbg.JPEG') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     text-align: center;
@@ -108,6 +108,21 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
                 0 0 40px rgba(255, 255, 255, 0.2);
   }
+/* Gradient + neon glow themes */
+    .btn1 { background-image: linear-gradient(to right, #89f7fe, #66a6ff); }
+    .btn2 { background-image: linear-gradient(to right, #f6d365, #fda085); }
+    .btn3 { background-image: linear-gradient(to right, #a1c4fd, #c2e9fb); }
+    .btn4 { background-image: linear-gradient(to right, #fbc2eb, #a6c1ee); }
+    .btn5 { background-image: linear-gradient(to right, #fddb92, #d1fdff); }
+    .btn6 { background-image: linear-gradient(to right, #84fab0, #8fd3f4); }
+
+    .btn1:hover { box-shadow: 0 0 20px #66a6ff, 0 0 40px #89f7fe; }
+    .btn2:hover { box-shadow: 0 0 20px #f6d365, 0 0 40px #fda085; }
+    .btn3:hover { box-shadow: 0 0 20px #a1c4fd, 0 0 40px #c2e9fb; }
+    .btn4:hover { box-shadow: 0 0 20px #fbc2eb, 0 0 40px #a6c1ee; }
+    .btn5:hover { box-shadow: 0 0 20px #fddb92, 0 0 40px #d1fdff; }
+    .btn6:hover { box-shadow: 0 0 20px #84fab0, 0 0 40px #8fd3f4; }
+
 
   .A { background: linear-gradient(135deg, #1565c0, #1e88e5); }
   .B { background: linear-gradient(135deg, #00897b, #26a69a); }
@@ -213,8 +228,8 @@
 
   <!-- ✅ Button Grid (responsive) -->
   <div class="button-container">
-    <button class="A" onclick="window.open('https://gunturoperating-hub.github.io/TI-STAFF/')">TI-STAFF</button>
-    <button class="B" onclick="window.open('https://gunturoperating-hub.github.io/TI-SWR/')">TI-SWR</button>
+    <button class="btn1" onclick="window.open('https://gunturoperating-hub.github.io/TI-STAFF/')">TI-STAFF</button>
+    <button class="btn2" onclick="window.open('https://gunturoperating-hub.github.io/TI-SWR/')">TI-SWR</button>
     <button class="C" onclick="window.open('https://gunturoperating-hub.github.io/TI-CO/')">TI-CO</button>
     <button class="D" onclick="window.open('https://gunturoperating-hub.github.io/TI-PLNG/')">TI-PLANNING</button>
     <button class="E" onclick="window.open('https://gunturoperating-hub.github.io/TI-GENERAL/')">TI-GENERAL</button>
@@ -236,6 +251,7 @@
   <div class="watermark">🌟✨GNT-TI-HUB</div>
 </body>
 </html>
+
 
 
 
